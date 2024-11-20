@@ -1,0 +1,60 @@
+{
+    "Geometry":{
+        "p1": [
+            0.50,
+            0.40
+        ],
+        "p2": [
+            0.50,
+            0.70
+        ],
+        "p3": [
+            1.10,
+            0.80
+        ]
+    },
+    "Material Properties": [
+        {
+            "rho": 1500.0,
+            "cp": 750.0,
+            "lambda": 170.0
+        },
+        {
+            "rho": 1600.0,
+            "cp": 770.0,
+            "lambda": 140.0
+        },
+        {
+            "rho": 1900.0,
+            "cp": 810.0,
+            "lambda": 200.0
+        },
+        {
+            "rho": 2500.0,
+            "cp": 930.0,
+            "lambda": 140.0
+        }
+    ],
+    "Boundary Conditions": {
+        "TwBottom": 296.0,
+        "TwRight": [281.0, 0.005],
+        "qwTop": 54.55,
+        "Text": 306.0,
+        "alpha_ext": 9.0
+    },
+    "Control Volumes": {
+        "N": 60,
+        "M": 60
+    },
+    "Time Parameters": {
+        "dt": 1,
+        "ti": 0.0,
+        "tf": 5000.0
+    },
+    "Solver Parameters": {
+        "delta": 1e-8,
+        "T0": 281.0,
+        "Relaxation Factor": 1.4,
+        "Maximum Iterations": 1e6
+    }
+}
