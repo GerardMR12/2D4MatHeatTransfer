@@ -7,4 +7,4 @@ Here lies the resulting field of temperature given a certain example case.
 
 The report is:
 
-![Alt Text](.info/Report_2D4Mat.pdf)
+[Read the Documentation](.inof/Report_2D4Mat.pdf)
